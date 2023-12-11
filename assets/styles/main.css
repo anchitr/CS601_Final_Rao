@@ -1,0 +1,11 @@
+/* Import Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Questrial&display=swap");
+
+:root {
+  --title-font: "Quattrocento", serif;
+  --paragraph-font: "Questrial", sans-serif;
+  --background-color: #fdfffc;
+  --contrast-color: #011627;
+  --accent-color: #c05746;
+  --neutral-color: #748386;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "class_code": "MET-CS 669",
+    "class_name": "Database Design and Implementation for Business",
+    "professor": "Warren Mansur",
+    "difficulty_rating": "4.1/5.0",
+    "comments": "Challenging course but highly informative and useful in industry."
+  },
+  {
+    "class_code": "MET-CS 521",
+    "class_name": "Information Structures with Python",
+    "professor": "Jos Purvis",
+    "difficulty_rating": "3.1/5.0",
+    "comments": "I already came into the class knowing Python due to my professional background. It was very easy for me."
+  },
+  {
+    "class_code": "MET-CS 625",
+    "class_name": "Business Data Communication and Networks",
+    "professor": "Maryan Rizinski",
+    "difficulty_rating": "4.6/5.0",
+    "comments": "By far my most difficult classes given how little I knew about networking. Assignments took a long time."
+  },
+  {
+    "class_code": "MET-CS 546",
+    "class_name": "Introduction to Probability and Statistics",
+    "professor": "Anatoly Temkin",
+    "difficulty_rating": "3.6/5.0",
+    "comments": "Mathematically challenging, but essential concepts to understand for the field of DS/ML."
+  },
+  {
+    "class_code": "MET-CS 544",
+    "class_name": "Foundations of Analytics and Data Visualization",
+    "professor": "Suresh Kalathur",
+    "difficulty_rating": "4.3/5.0",
+    "comments": "R is a difficult language to learn, but the professor was very helpful and the assignments were very useful."
+  },
+  {
+    "class_code": "MET-CS 601",
+    "class_name": "Web Application Development",
+    "professor": "Christian Hur",
+    "difficulty_rating": "3.2/5.0",
+    "comments": "Very quickly covers the basics, but the assignments allow for a lot of creativity and learning."
+  }
+]
