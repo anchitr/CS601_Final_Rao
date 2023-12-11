@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Anchit Rao | Contact Me</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./assets/styles/main.css" />
+  <link rel="stylesheet" href="./assets/styles/contact.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img class="logo" src="./assets/logos/logo-white.svg" alt="Site Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-content fadeInUp">
+    <div class="page-heading">
+      <h1>LET'S COLLABORATE ON YOUR NEXT PROJECT</h1>
+    </div>
+    <main>
+      <form>
+        <label>Name:</label>
+        <input type="text" required placeholder="John Doe" />
+
+        <label>Email:</label>
+        <input type="email" placeholder="John.Doe@mail.com" required />
+
+        <label>Service Required:</label>
+        <select>
+          <option value="web-design">Web Design</option>
+          <option value="web-development">Web Development</option>
+          <option value="data-analysis">Data Analysis</option>
+          <option value="data-engineering">Data Engineering</option>
+        </select>
+
+        <label>Message:</label>
+        <textarea placeholder="Enter your message here" required></textarea>
+        <div class="error"></div>
+
+        <div class="consent">
+          <input type="checkbox" required />
+          <label>I consent to receiving email communication</label>
+        </div>
+
+        <div class="submit">
+          <button>Send Message</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
