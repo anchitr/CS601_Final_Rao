@@ -1,0 +1,75 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 30px;
+    padding: 20px;
+    border: 1px solid var(--neutral-color);
+    box-shadow: -10px 10px 0 var(--neutral-color);
+}
+
+.resume-section-title {
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: underline 2px solid var(--neutral-color);
+}
+
+h3 {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.time-range {
+    font-family: var(--paragraph-font);
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.job-technologies ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.job-technologies ul li {
+    margin-right: 20px;
+}
+
+.duties {
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.duties ul li {
+    margin-bottom: 20px;
+}
+
+.college-details {
+    margin-bottom: 30px;
+}
+
+.skills ul li {
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.bx {
+    color: var(--contrast-color);
+}

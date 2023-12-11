@@ -1,0 +1,121 @@
+/* Import Google font for quote */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+blockquote {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  color: var(--accent-color);
+}
+
+figcaption,
+cite {
+  font-size: 28px;
+  font-family: var(--paragraph-font);
+  color: var(--accent-color);
+}
+
+figcaption {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero-img {
+  max-width: 1100px;
+  height: auto;
+}
+
+.schools-attended {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px 0px var(--neutral-color);
+}
+
+.courses-taken {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px 0px var(--neutral-color);
+}
+
+.future-courses {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px 0px var(--neutral-color);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+  padding: 10px;
+}
+
+.article-content {
+  font-size: 24px;
+  font-family: var(--paragraph-font);
+  color: var(--contrast-color);
+  padding: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+th {
+  padding: 6px;
+  background-color: var(--contrast-color);
+  color: #fdfffc;
+  border: 1px solid var(--neutral-color);
+  text-align: center;
+}
+
+td {
+  color: #011627;
+  padding: 6px;
+  border: 1px solid #011627;
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #5d737e;
+}
+
+tr:nth-child(even) td {
+  color: #fdfffc;
+}
+
+@media screen and (max-width: 1100px) {
+  .hero-img {
+    max-width: 90%;
+  }
+
+  .table-container {
+    flex-direction: column;
+  }
+}

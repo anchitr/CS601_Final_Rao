@@ -1,0 +1,50 @@
+.hero-img {
+  max-width: 1100px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+  padding: 10px;
+}
+
+.intro {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px var(--neutral-color);
+}
+
+.current-work {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px var(--neutral-color);
+}
+
+.hobbies {
+  border: 1px solid var(--neutral-color);
+  box-shadow: -10px 10px 0px var(--neutral-color);
+}
+
+.article-content {
+  font-size: 24px;
+  font-family: var(--paragraph-font);
+  color: var(--contrast-color);
+  padding: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+@media (max-width: 860px) {
+  .main-content {
+    padding: 20px 10%;
+  }
+
+  .hero-img {
+    max-width: 100%;
+  }
+
+  article {
+    margin: 40px 0;
+  }
+}

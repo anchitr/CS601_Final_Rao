@@ -1,0 +1,73 @@
+form {
+    max-width: 900px;
+    margin: 30px auto;
+    background: var(--background-color);
+    text-align: left;
+    padding: 40px;
+    border: 1px solid var(--neutral-color);
+    box-shadow: -10px 10px 0 var(--neutral-color);
+}
+
+label {
+    color: var(--accent-color);
+    display: inline-block;
+    margin: 25px 0 20px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #C05746;
+    color: var(--contrast-color);
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    height: 40px;
+    width: 20px;
+    margin: 20px 10px 0 0;
+    position: relative;
+    top: 10px;
+}
+
+input,
+select:focus {
+    outline: none;
+    outline-width: 0;
+    box-shadow: none;
+}
+
+textarea:focus {
+    outline-color: var(--accent-color);
+    outline-width: 1px;
+}
+
+button {
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: var(--background-color);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.error {
+    color: var(--accent-color);
+    margin-top: 10px;
+    font-weight: bold;
+}
