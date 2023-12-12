@@ -12,10 +12,19 @@ label {
     color: var(--accent-color);
     display: inline-block;
     margin: 25px 0 20px 0;
-    font-size: 25px;
+    font-family: var(--title-font);
+    font-size: 32px;
+    font-weight: 600px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    font-size: 24px;
+    color: var(--neutral-color);
 }
 
 input,
@@ -26,8 +35,9 @@ textarea {
     width: 100%;
     box-sizing: border-box;
     border: none;
-    border-bottom: 1px solid #C05746;
+    border-bottom: 1px solid var(--accent-color);
     color: var(--contrast-color);
+    font-size: 24px;
 }
 
 input[type="checkbox"] {
@@ -57,8 +67,9 @@ button {
     padding: 10px 20px;
     margin-top: 20px;
     color: var(--background-color);
-    font-size: 20px;
-    font-weight: bold;
+    font-family: var(--paragraph-font);
+    font-size: 28px;
+    font-weight: 700px;
     border-radius: 20px;
 }
 
@@ -70,4 +81,15 @@ button {
     color: var(--accent-color);
     margin-top: 10px;
     font-weight: bold;
+}
+
+.javascript-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: var(--paragraph-font);
+    font-size: x-large;
+    font-weight: 600;
+    color: var(--accent-color);
 }
