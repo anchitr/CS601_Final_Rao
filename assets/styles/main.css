@@ -123,6 +123,21 @@ header {
   box-shadow: -10px 10px 0px var(--accent-color);
 }
 
+footer {
+  background-color: var(--contrast-color);
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--title-font);
+  color: var(--background-color);
+  position: absolute;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 @media (max-width: 1180px) {
   header {
     display: flex;
