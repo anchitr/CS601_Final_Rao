@@ -254,6 +254,32 @@
       </article>
     </main>
   </div>
+  <footer>
+    <div id="app">
+      <footerComponent></footerComponent>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.9/vue.global.min.js"></script>
+
+  <script type="module">
+
+    const app = Vue.createApp({
+      data() {
+        return {
+
+        }
+      },
+      methods: {
+
+      },
+      template: `&copy; Anchit Rao 2023`
+    });
+
+    app.mount('#app');
+
+
+  </script>
 </body>
 
 </html>
