@@ -125,17 +125,17 @@ header {
 
 footer {
   background-color: var(--contrast-color);
-  padding-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: var(--title-font);
   color: var(--background-color);
-  position: absolute;
-  height: 40px;
+  position: fixed;
+  height: 30px;
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 10px;
 }
 
 @media (max-width: 1180px) {
